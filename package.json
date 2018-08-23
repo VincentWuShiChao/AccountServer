@@ -1,0 +1,33 @@
+{
+  "name": "accountserver",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./app.js",
+    "cover": "istanbul cover ./utils/Code.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "apidoc": "^0.17.6",
+    "body-parser": "^1.18.3",
+    "connect": "^3.6.6",
+    "everyauth": "^0.4.9",
+    "express": "^4.16.3",
+    "iconv-lite": "^0.4.23",
+    "istanbul": "^0.4.5",
+    "koa": "^2.5.2",
+    "koa-bodyparser": "^4.2.1",
+    "koa-router": "^7.4.0",
+    "mysql": "^2.16.0",
+    "nodemailer": "^4.6.7",
+    "request": "^2.87.0",
+    "sha1": "^1.1.1",
+    "url-safe-base64": "^1.1.0"
+  },
+  "apidoc": {
+    "title": "Custom apiDoc browser title",
+    "url": "http://account.ykplay.com"
+  }
+}
